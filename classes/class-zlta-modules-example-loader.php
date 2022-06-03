@@ -36,6 +36,7 @@ class ZLTA_Modules_Example_Loader {
 	 */
 	static public function load_modules() {
 		require_once ZLTA_EXAMPLES_DIR . 'modules/zlta-icon-group/zlta-icon-group.php';
+        require_once ZLTA_EXAMPLES_DIR . 'modules/zlta-interactive-map/zlta-interactive-map.php';
 	}
 	
 }
