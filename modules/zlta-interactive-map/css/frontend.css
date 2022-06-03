@@ -73,15 +73,7 @@
 }
 
 
-#tooltip {
-    position: fixed;
-    background: cornsilk;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
 
-
-}
 
 /* Zipline Runs */
 .svg_zipline_run {
@@ -91,4 +83,9 @@
 
 .svg_zipline_run--reduce-opacity {
     opacity: 0.5;
+}
+
+.hideToolTip {
+    opacity: 0;
+    transition: opacity ease-in-out .25s;
 }
