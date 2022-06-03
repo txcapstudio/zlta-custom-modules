@@ -6,39 +6,73 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Static" transform="translate(2.000000, -392.000000)">
-            <g id="ZLTAMap" transform="translate(-2.000000, 0.000000)">
-                <g id="Runs" transform="translate(0.000000, 392.000000)">
+            <g id="ZLTAMap" transform="translate(-3.000000, 0.000000)">
+                <g id="Runs" transform="translate(1.000000, 392.000000)">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
                     <g id="Mask-Copy"></g>
+                    <g id="Tooltips" mask="url(#mask-2)">
+                        <g transform="translate(86.000000, 340.000000)">
+                            <g id="Run7_Tooltip" transform="translate(470.000000, 0.000000)">
+                                <path d="M5,0 L53,0 C55.7614237,-5.07265313e-16 58,2.23857625 58,5 L58,24 L58,24 L5,24 C2.23857625,24 3.38176876e-16,21.7614237 0,19 L0,5 C-3.38176876e-16,2.23857625 2.23857625,1.39544373e-15 5,0 Z" id="Rectangle" fill="#172C62"></path>
+                                <text id="RUN-#7" font-family="Poppins-Black, Poppins" font-size="10" font-weight="800" letter-spacing="0.272727273" fill="#FFFFFF">
+                                    <tspan x="9.53363636" y="16">RUN #7</tspan>
+                                </text>
+                            </g>
+                            <g id="Run6_Tooltip" transform="translate(654.000000, 36.000000)">
+                                <path d="M5,0 L53,0 C55.7614237,-5.07265313e-16 58,2.23857625 58,5 L58,24 L58,24 L5,24 C2.23857625,24 3.38176876e-16,21.7614237 0,19 L0,5 C-3.38176876e-16,2.23857625 2.23857625,1.39544373e-15 5,0 Z" id="Rectangle-Copy" fill="#172C62"></path>
+                                <text id="RUN-#6" font-family="Poppins-Black, Poppins" font-size="10" font-weight="800" letter-spacing="0.272727273" fill="#FFFFFF">
+                                    <tspan x="8.32363636" y="16">RUN #6</tspan>
+                                </text>
+                            </g>
+                            <g id="Run5_Tooltip" transform="translate(308.000000, 153.000000)">
+                                <path d="M5,0 L53,0 C55.7614237,-5.07265313e-16 58,2.23857625 58,5 L58,24 L58,24 L5,24 C2.23857625,24 3.38176876e-16,21.7614237 0,19 L0,5 C-3.38176876e-16,2.23857625 2.23857625,1.39544373e-15 5,0 Z" id="Rectangle-Copy-2" fill="#172C62"></path>
+                                <text id="RUN-#5" font-family="Poppins-Black, Poppins" font-size="10" font-weight="800" letter-spacing="0.272727273" fill="#FFFFFF">
+                                    <tspan x="8.05363636" y="16">RUN #5</tspan>
+                                </text>
+                            </g>
+                            <g id="Run4_Tooltip" transform="translate(0.000000, 314.000000)">
+                                <path d="M5,0 L53,0 C55.7614237,-5.07265313e-16 58,2.23857625 58,5 L58,24 L58,24 L5,24 C2.23857625,24 3.38176876e-16,21.7614237 0,19 L0,5 C-3.38176876e-16,2.23857625 2.23857625,1.39544373e-15 5,0 Z" id="Rectangle-Copy-2" fill="#172C62"></path>
+                                <text id="RUN-#4" font-family="Poppins-Black, Poppins" font-size="10" font-weight="800" letter-spacing="0.272727273" fill="#FFFFFF">
+                                    <tspan x="7.61363636" y="16">RUN #4</tspan>
+                                </text>
+                            </g>
+                            <g id="Run3_Tooltip" transform="translate(58.000000, 360.000000)">
+                                <path d="M5,0 L53,0 C55.7614237,-5.07265313e-16 58,2.23857625 58,5 L58,24 L58,24 L5,24 C2.23857625,24 3.38176876e-16,21.7614237 0,19 L0,5 C-3.38176876e-16,2.23857625 2.23857625,1.39544373e-15 5,0 Z" id="Rectangle-Copy-2" fill="#172C62"></path>
+                                <text id="RUN-#3" font-family="Poppins-Black, Poppins" font-size="10" font-weight="800" letter-spacing="0.272727273" fill="#FFFFFF">
+                                    <tspan x="8.50363636" y="16">RUN #3</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
                     <path d="M435.811401,728.906114 L542,580.338427 L642.602989,512.35047 C642.602989,512.35047 768.473573,494.472323 775.02582,493.172089 C781.578067,491.871856 942.132239,515.804961 942.132239,515.804961 L1181.34479,663.395111" id="BoatRide-2" stroke="#FF5100" stroke-width="6.08" stroke-linecap="round" stroke-dasharray="10" mask="url(#mask-2)"></path>
                     <path d="M257,716 L301.315604,736.253168 C321.434089,745.447275 344.920583,743.511049 363.247572,731.151271 L364,730.640487" id="Trail1" stroke="#F7EC13" stroke-width="6.08" stroke-linecap="round" stroke-dasharray="10" mask="url(#mask-2)"></path>
                     <path d="M607,434.453444 L646.335159,436.889263 C655.58555,437.456593 662.976265,435.958102 669.983046,429.729805 L676,425" id="Trail2" stroke="#F7EC13" stroke-width="6.08" stroke-linecap="round" stroke-dasharray="10" mask="url(#mask-2)"></path>
                     <line x1="125" y1="737" x2="55" y2="709" id="Trail3" stroke="#F7EC13" stroke-width="6.08" stroke-linecap="round" stroke-dasharray="10" mask="url(#mask-2)"></line>
                     <path d="M242.95122,661 L262.789713,646.289262 L301,626" id="Trail4" stroke="#F7EC13" stroke-width="4.92" stroke-linecap="round" stroke-dasharray="10" mask="url(#mask-2)"></path>
                     <path d="M929,373 C929,373 922.991067,335.929185 852.438213,335.929185 C781.88536,335.929185 741.8,311.526112 741.8,311.526112 L689,281" id="Trail5" stroke="#F7EC13" stroke-width="6.08" stroke-linecap="round" stroke-dasharray="10" mask="url(#mask-2)"></path>
-                    <g id="Run6" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
+                    <g id="Run6" class="svg_zipline_run" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
                         <g transform="translate(802.815608, 404.341346) rotate(-8.000000) translate(-802.815608, -404.341346) translate(682.631217, 395.682692)" id="Path">
                             <line x1="0" y1="17.3173077" x2="240.368783" y2="0"></line>
                         </g>
                     </g>
-                    <g id="Run5" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
+                    <g id="Run5" class="svg_zipline_run" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
                         <g transform="translate(317.851223, 430.000000)" id="Path">
                             <line x1="2.84217094e-14" y1="187.056458" x2="269.148777" y2="0"></line>
                         </g>
                     </g>
-                    <g id="Run7" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
+                    <g id="Run7" class="svg_zipline_run" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
                         <g transform="translate(554.000000, 460.500000) rotate(4.000000) translate(-554.000000, -460.500000) translate(439.000000, 264.000000)" id="Path">
                             <line x1="230" y1="-1.13686838e-13" x2="0" y2="393"></line>
                         </g>
                     </g>
-                    <g id="Run4" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
+                    <g id="Run4" class="svg_zipline_run" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
                         <g transform="translate(47.360294, 667.000000)" id="Path">
                             <line x1="0" y1="31.9060145" x2="185.639706" y2="0"></line>
                         </g>
                     </g>
-                    <g id="Run3" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
+                    <g id="Run3" class="svg_zipline_run" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="7.3">
                         <g transform="translate(145.000000, 716.906114)" id="Path">
                             <line x1="101.560055" y1="0" x2="0" y2="25.0938857"></line>
                         </g>
