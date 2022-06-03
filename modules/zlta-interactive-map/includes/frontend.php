@@ -2,6 +2,8 @@
 
 <div class="zlta-interactive-map--wrapper">
 
+    <div id="tooltip" style="position: absolute; display: none;"></div>
+
     <div class="zlta-interactive-map--image-container">
         <div class="zlta-interactive-map--svg">
             <?php
@@ -35,5 +37,3 @@
 
     </div>
 </div>
-
-<div id="tooltip" display="none" style="position: absolute; display: none;"></div>
