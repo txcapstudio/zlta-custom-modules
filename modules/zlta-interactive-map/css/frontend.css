@@ -1,3 +1,13 @@
+/* Image positioning */
+.zlta-interactive-map--image-container {
+    position: relative;
+}
+
+.zlta-interactive-map--svg {
+    position: absolute;
+    z-index: 1;
+}
+
 .modal-box--wrapper {
     display: none;
     position: absolute;

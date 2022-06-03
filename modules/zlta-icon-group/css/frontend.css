@@ -1,13 +1,3 @@
-/* Image positioning */
-.zlta-interactive-map--image-container {
-    position: relative;
-}
-
-.zlta-interactive-map--svg {
-    position: absolute;
-    z-index: 1;
-}
-
 .zlta-icon-group--wrapper.has_description {
     display: flex;
 }
