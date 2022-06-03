@@ -2,10 +2,18 @@
 
 <div class="zlta-interactive-map--wrapper">
 
-    <?php
-    $mapPath = esc_url(site_url() . "/wp-content/plugins/zlta-custom-modules/modules/zlta-interactive-map/assets/map.svg");
-    echo file_get_contents($mapPath);
-    ?>
+    <div class="zlta-interactive-map--image-container">
+        <div class="zlta-interactive-map--svg">
+            <?php
+            $mapPath = esc_url(site_url() . "/wp-content/plugins/zlta-custom-modules/modules/zlta-interactive-map/assets/RunsOnly.svg");
+            echo file_get_contents($mapPath);
+            ?>
+        </div>
+        <div class="zlta-interactive-map--base">
+            <img src="<?php echo esc_url(site_url(). '/wp-content/plugins/zlta-custom-modules/modules/zlta-interactive-map/assets/ZLTABase.jpg'); ?>" />
+        </div>
+    </div>
+
 
     <div class="modal-box--wrapper">
 
