@@ -56,11 +56,11 @@ function hideTooltip() {
 }
 
 
-let pathSelect = document.getElementById(this.id);
-function opacityTrigger(evt) {
-    pathSelect.style.opacity = .5
-
-}
+// let pathSelect = document.getElementById(this.id);
+// function opacityTrigger(evt) {
+//     pathSelect.style.opacity = .5
+//
+// }
 
 
 // onmouseenter="showTooltip(evt, 'Run #7');" onmouseout="hideTooltip();"
