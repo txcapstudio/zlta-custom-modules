@@ -31,4 +31,61 @@ class ZLTAInteractiveMap extends FLBuilderModule {
 /**
  * Register the module and its form settings.
  */
-FLBuilder::register_module( 'ZLTAInteractiveMap', array() );
+FLBuilder::register_module( 'ZLTAInteractiveMap', array(
+    'general'       => array( // Tab
+        'title'         => __('Modal Content', 'fl-builder'), // Tab title
+        'sections'      => array( // Tab Sections
+            'general'       => array( // Section
+                'title'         => __('Modal Content', 'fl-builder'), // Section Title
+                'fields'        => array( // Section Fields
+                    'modal_content_form'     => array(
+                        'type'          => 'form',
+                        'label'         => __('Add Modal', 'fl-builder'),
+                        'form'          => 'map_modal_form',
+                        'show_remove'   => false,
+                        'multiple'      => true
+                    ),
+                )
+            )
+        )
+    )
+) );
+
+/**
+ * Register settings form
+ */
+FLBuilder::register_settings_form('map_modal_form', array(
+    'title' => __('Map Modal Form Field', 'fl-builder'),
+    'tabs'  => array(
+        'general'      => array(
+            'title'         => __('General', 'fl-builder'),
+            'sections'      => array(
+                'general'       => array(
+                    'title'         => '',
+                    'fields'        => array(
+                        'run_title'         => array(
+                            'type'          => 'text',
+                            'label'         => __('Run Name', 'fl-builder')
+                        ),
+                        'run_photo'         => array(
+                            'type'          => 'photo',
+                            'label'         => __('Run Photo', 'fl-builder')
+                        ),
+                        'run_max_speed'         => array(
+                            'type'          => 'text',
+                            'label'         => __('Run Max Speed', 'fl-builder')
+                        ),
+                        'run_distance'         => array(
+                            'type'          => 'text',
+                            'label'         => __('Run Distance', 'fl-builder')
+                        ),
+                        'run_elevation'         => array(
+                            'type'          => 'text',
+                            'label'         => __('Run Elevation', 'fl-builder')
+                        ),
+                    )
+                ),
+            )
+        )
+    )
+));
