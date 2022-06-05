@@ -24,7 +24,9 @@
         <?php $run_index = 3; ?>
         <?php foreach ( $settings->modal_content_form as $modal) : ?>
             <div class="modal-box" id="modal_Run<?php echo $run_index; ?>">
+                <a href="#" class="close-btn">&times;</a>
                 <h3 class="runHeader"><?php echo $modal->run_title; ?></h3>
+
                 <div class = "ul-image--wrapper">
                 <img class = "modal-image" src="<?php echo $modal->run_photo_src; ?>" />
                 <ul id = "descriptorList" style="list-style-type:none;">

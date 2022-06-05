@@ -28,7 +28,7 @@
 
 .modal-box {
     display: none;
-    position: absolute;
+    position: static;
     padding-top: 50px;
     left: 0;
     top: 0;
@@ -36,7 +36,7 @@
     max-height: 100%;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.5);
-
+    color: #172C62;
 }
 
 
@@ -48,31 +48,42 @@
     background-color: white;
     padding: 20px;
     margin: auto;
-    max-width: 40%;
+    max-width: 65%;
     max-height: 100%;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
-
+    color: #172C62;
+    font-weight: bold;
+    font-size: 2.5rem;
 
 
 }
+
+.runHeader {
+    color: #172C62;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-bottom: 0px;
+
+}
+
 .ul-image--wrapper {
-    position: relative;
+    position: static;
     display: grid;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    grid-template-columns: 40% 1fr;
-    gap: 3rem;
+    padding: 25px 25px 50px 15px;
+    grid-template-columns: 50% 1fr;
+    gap: 5%;
     align-items: center;
     margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
+    text-align: center;
 }
 
 .modal-image {
-    max-width: 100%;
+    max-width: auto%;
     height: auto;
 }
 
@@ -113,5 +124,5 @@
 
 .hideToolTip {
     opacity: 0;
-    transition: opacity ease-in-out .25s;
+    transition: opacity  .25s ease;
 }
