@@ -16,7 +16,7 @@
 .modal-box--wrapper {
     display: none;
     position: absolute;
-    padding-top: 50px;
+    padding-top: 150px;
     left: 0;
     top: 0;
     width: 100%;
@@ -32,27 +32,50 @@
     padding-top: 50px;
     left: 0;
     top: 0;
-    width: 75%;
-    height: 75%;
+    max-width: 100%;
+    max-height: 100%;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.5);
+
 }
+
+
+
 .modal-content {
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    gap: 2rem;
+    display: block;
     position: relative;
     align-items: center;
     background-color: white;
     padding: 20px;
     margin: auto;
-    width: 40%;
+    max-width: 40%;
+    max-height: 100%;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
 
+
+
 }
+.ul-image--wrapper {
+    position: relative;
+    display: grid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 40% 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.modal-image {
+    max-width: 100%;
+    height: auto;
+}
+
 .close-btn {
     float: right;
     color: lightgray;
@@ -60,13 +83,16 @@
     font-weight: bold;
     cursor: pointer;
 }
+
 .close-btn:hover {
     color: darkgray;
 }
+
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
 }
+
 @keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}

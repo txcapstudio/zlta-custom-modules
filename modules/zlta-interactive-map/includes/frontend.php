@@ -25,12 +25,14 @@
         <?php foreach ( $settings->modal_content_form as $modal) : ?>
             <div class="modal-box" id="modal_Run<?php echo $run_index; ?>">
                 <h3 class="runHeader"><?php echo $modal->run_title; ?></h3>
-                <img src="<?php echo $modal->run_photo_src; ?>" />
+                <div class = "ul-image--wrapper">
+                <img class = "modal-image" src="<?php echo $modal->run_photo_src; ?>" />
                 <ul id = "descriptorList" style="list-style-type:none;">
                     <li class="speed">Max Speed: <?php echo $modal->run_max_speed; ?> mph</li>
                     <li class="distance">Distance: <?php echo $modal->run_distance; ?>' </li>
                     <li class="elevation">Elevation: <?php echo $modal->run_elevation; ?>'</li>
                 </ul>
+                </div>
             </div>
         <?php $run_index++; ?>
         <?php endforeach; ?>
