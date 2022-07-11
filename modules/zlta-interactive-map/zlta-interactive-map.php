@@ -83,6 +83,10 @@ FLBuilder::register_settings_form('map_modal_form', array(
                             'type'          => 'text',
                             'label'         => __('Run Elevation', 'fl-builder')
                         ),
+                        'run_description'   => array(
+                            'type'          => 'text',
+                            'label'         => __('Run Description', 'fl-builder')
+                        )
                     )
                 ),
             )

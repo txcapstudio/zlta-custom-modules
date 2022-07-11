@@ -31,6 +31,7 @@
                     <div class = "ul-image--wrapper">
                     <img class = "modal-image" src="<?php echo $modal->run_photo_src; ?>" />
                     <ul id = "descriptorList" style="list-style-type:none;">
+                        <li class="description"><p><?php echo $modal->run_description; ?></p></li>
                         <li class="speed">Max Speed: <?php echo $modal->run_max_speed; ?> mph</li>
                         <li class="distance">Distance: <?php echo $modal->run_distance; ?>' </li>
                         <li class="elevation">Elevation: <?php echo $modal->run_elevation; ?>'</li>
